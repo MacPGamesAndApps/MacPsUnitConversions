@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MacP\'s Unit Conversions</string>
+    <string name="conversion_in_cm">Inches to centimeters</string>
+    <string name="conversion_ft_m">Feet to meters</string>
+    <string name="conversion_yd_m">Yards to meters</string>
+    <string name="conversion_mi_km">Miles to kilometers</string>
+    <string name="conversion_lb_kg">Pounds to kilograms</string>
+    <string name="conversion_usgal_l">US Gallons to liters</string>
+    <string name="conversion_ukgal_l">UK Gallons to liters</string>
+    <string name="conversion_f_c">Fahrenheit to celcius</string>
+    <string name="conversion_cm_in">Centimeters to inches</string>
+    <string name="conversion_m_ft">Meters to feet</string>
+    <string name="conversion_m_yd">Meters to yards</string>
+    <string name="conversion_km_mi">Kilometers to miles</string>
+    <string name="conversion_kg_lb">Kilograms to pounds</string>
+    <string name="conversion_ml_usoz">Milliliters to US ounces</string>
+    <string name="conversion_l_ukgal">Liters to UK gallons</string>
+    <string name="conversion_l_usgal">Liters to US gallons</string>
+    <string name="conversion_c_f">Celcius to fahrenheit</string>
+    <string name="conversion_usoz_ml">US Ounces to milliliters</string>
+    <string name="label_conversion_type">Conversion Type:</string>
+    <string name="selected_conversion_type_placeholder">Select Conversion Type from the top-right menu</string>
+    <string name="label_convert_from">Enter value to convert:</string>
+    <string name="button_convert_text">Convert</string>
+    <string name="label_converted_value">Converted value:</string>
+</resources>

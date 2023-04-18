@@ -1,0 +1,113 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.MacPGames.MacPsUnitConversions.MainActivity">
+    <item
+        android:id="@+id/conversion_in_cm"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_in_cm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_ft_m"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_ft_m"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_yd_m"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_yd_m"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_mi_km"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_mi_km"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_lb_kg"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_lb_kg"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_usoz_ml"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_usoz_ml"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_usgal_l"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_usgal_l"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_ukgal_l"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_ukgal_l"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_f_c"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_f_c"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_cm_in"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_cm_in"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_m_ft"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_m_ft"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_m_yd"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_m_yd"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_km_mi"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_km_mi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_kg_lb"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_kg_lb"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_ml_usoz"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_ml_usoz"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_l_usgal"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_l_usgal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_l_ukgal"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_l_ukgal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/conversion_c_f"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/conversion_c_f"
+        app:showAsAction="never" />
+</menu>

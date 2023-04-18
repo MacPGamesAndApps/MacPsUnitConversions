@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewConversionTypeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/label_conversion_type"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewConversionType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/selected_conversion_type_placeholder"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewConvertFromLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/label_convert_from"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextConvertFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="40dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:fontFamily="@font/days_one"
+                android:inputType="numberDecimal"
+                android:paddingLeft="15dp"
+                android:selectAllOnFocus="true"
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonConvert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/days_one"
+                android:onClick="buttonConvert_onClick"
+                android:text="@string/button_convert_text"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewConvertedValueLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/label_converted_value"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewConvertedValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="25dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:fontFamily="@font/days_one"
+                android:paddingLeft="15dp"
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
